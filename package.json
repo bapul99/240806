@@ -1,0 +1,22 @@
+{
+  "name": "240806",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:bapul99/240806.git",
+  "author": "bapul99 <minyeop0423@naver.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
